@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower of Hanoi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tower of Hanoi</h1>
+        <div class="game-info">
+            <div class="timer">Time: <span id="time">0:00</span></div>
+            <div class="moves">Moves: <span id="moves">0</span></div>
+        </div>
+        <div class="game-container">
+            <div class="tower" id="tower1"></div>
+            <div class="tower" id="tower2"></div>
+            <div class="tower" id="tower3"></div>
+        </div>
+        <div class="controls">
+            <button id="startBtn">Start Game</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+<h3>Como Jugar / How to Play</h3>
+
+<p>[ES] Iniciar el juego, selecciona un disco con un clic</p>
+<p> y luego clic en la columna de destino</p><br/>
+<p>[EN] Start the game, select a disc by clicking </p>
+<p>on it, then click on the destination column</p>
+
+        <div class="high-scores">
+            <h2>High Scores</h2>
+            <div id="scoresList"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
